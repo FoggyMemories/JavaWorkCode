@@ -1,4 +1,0 @@
-Manifest-Version: 1.0
-Main-Class: com.qian.school_2023.May.exercise05_10.work.Test1.A05_HashMa
- pDemo1
-
