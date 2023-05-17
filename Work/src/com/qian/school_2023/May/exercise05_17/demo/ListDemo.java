@@ -17,13 +17,16 @@ public class ListDemo {
         }
 
         ListIterator li = list.listIterator();
-
+        System.out.println("list集合:");
         while (li.hasNext()){
             System.out.print(li.next() + " ");
         }
 
         System.out.println();
 
-        System.out.println(list);
+        System.out.println("list集合反向遍历元素:");
+        while (li.hasPrevious()){
+            System.out.print(li.previous() + " ");
+        }
     }
 }
