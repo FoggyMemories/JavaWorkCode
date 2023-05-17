@@ -16,10 +16,10 @@ public class ListDemo {
             list.add(i * 10);
         }
 
-        ListIterator lit = list.listIterator();
+        ListIterator li = list.listIterator();
 
-        while (lit.hasNext()){
-            System.out.print(lit.next() + " ");
+        while (li.hasNext()){
+            System.out.print(li.next() + " ");
         }
 
         System.out.println();
