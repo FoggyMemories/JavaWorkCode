@@ -1,8 +1,23 @@
 package com.qian.school_2023.May.exercise05_17.demo;
 
+import java.util.ArrayList;
+
 public class ArrayListDemo {
     public static void main(String[] args) {
 
+        ArrayList arr = new ArrayList<>();
+
+        for (int i = 0; i < 5; i++) {
+            arr.add(new Circle(i));
+        }
+
+        for (int i = 0; i < arr.size(); i++) {
+            System.out.println("第" + (i + 1) + "个圆的面积是:" + arr.get(i));
+        }
+
+        System.out.println("----------------------");
+
+        System.out.println(arr);
     }
 }
 
@@ -36,7 +51,7 @@ class Circle {
     }
 
     public String toString() {
-        return "Circle{radius = " + radius + "}";
+        return "圆面积:" + getArea();
     }
 
     double getArea() {
