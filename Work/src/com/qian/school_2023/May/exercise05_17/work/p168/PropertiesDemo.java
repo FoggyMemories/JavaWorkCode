@@ -11,7 +11,6 @@ public class PropertiesDemo {
         while (enum1.hasMoreElements()){
             String key = (String) enum1.nextElement();
             String pro = proper.getProperty(key);
-
             System.out.println(key + " = " + pro);
         }
     }
