@@ -10,6 +10,8 @@ public class VectorDemo {
         v1.add("中国");
         v1.add('a');
 
+        System.out.println("集合v1的元素:");
+
         System.out.println(v1);
 
         for (Object o : v1) {
