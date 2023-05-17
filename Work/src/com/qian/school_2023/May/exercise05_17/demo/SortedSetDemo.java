@@ -17,7 +17,16 @@ public class SortedSetDemo {
 
         System.out.println("集合Set元素:");
         while (it.hasNext()){
-            System.out.print(it.next() +", ");
+            System.out.print(it.next() +" ");
+        }
+
+        SortedSet<Character> subSet = set.subSet('a','c');//包头不包尾,a,b元素
+
+        System.out.println();
+        System.out.println("集合subSet元素:");
+        Iterator<Character> it2 = subSet.iterator();
+        while (it2.hasNext()){
+            System.out.print(it2.next() + " ");
         }
     }
 }
