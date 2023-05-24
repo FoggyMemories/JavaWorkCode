@@ -10,7 +10,7 @@ public class ExceptionFinally {
             System.out.println("1.");
             e1.printStackTrace();
             System.out.println("2." + e1.getLocalizedMessage());
-            System.out.print("3." + e1.getCause().getMessage() + "\n4." + e1);
+            System.out.print("3." + e1.getMessage() + "\n4." + e1);
             e1.printStackTrace();
         }finally {//finally代码块是把无论是否有异常都必须来执行
             //finally执行语句
