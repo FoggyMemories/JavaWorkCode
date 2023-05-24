@@ -9,7 +9,7 @@ public class ExceptionClass {
             int result = a / b;
         } catch (Exception e){//捕获异常的多态
             System.out.println("1." + e.getMessage());
-            System.out.println("2." + e.toString());
+            System.out.println("2." + e);
             System.out.print("3." + e.getLocalizedMessage() + "\n4.");
             e.printStackTrace();
         }
