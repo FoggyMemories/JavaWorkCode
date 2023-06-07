@@ -1,4 +1,4 @@
-package com.qian.school_2023.May.exercise05_31.demo;
+package com.qian.school_2023.May.exercise05_31;
 
 //1.继承Thread类创建线程:1.创建一个类继承Thread类,重写run方法
 //2.main方法里面new该新建类对象

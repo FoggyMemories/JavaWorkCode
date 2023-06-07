@@ -1,4 +1,4 @@
-package com.qian.school_2023.May.exercise05_31.demo;
+package com.qian.school_2023.May.exercise05_31;
 
 //通过实现Runnable接口创建线程
 //1.定义一个类,实现Runnable接口,重写run方法

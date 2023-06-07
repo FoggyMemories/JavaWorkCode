@@ -1,4 +1,4 @@
-package com.qian.school_2023.May.exercise05_31.demo;
+package com.qian.school_2023.May.exercise05_31;
 
 public class ThreadTest {
     public static void main(String[] args) {
